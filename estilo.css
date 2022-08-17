@@ -1,0 +1,29 @@
+body{
+	background-color: red;
+}
+
+		p{
+			text-align: center;
+			color: blue;
+			background-color: green;
+		}
+
+		img{
+			width: 50%;
+			height: 300px;
+		}
+
+		h1,h2{
+			background-color: yellow;
+		}
+
+		.wendel{
+			text-align: center;
+			background-color: orange;
+			font-size: 12px;
+		}
+
+		.icones{
+			width: 120px;
+			height: 120px;
+		}
