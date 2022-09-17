@@ -27,8 +27,6 @@ public class Ola {
 		System.out.println(idade-12);
 		System.out.println(idade/12);
 		System.out.println(idade*12);
-		
-
 	}
 
 }
