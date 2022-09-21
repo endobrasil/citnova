@@ -1,0 +1,51 @@
+body{
+	background-color: pink;
+	background-image: url("cascata.jpeg");
+}
+
+
+
+img{
+	width: 270px;
+	height: 270px;
+	float: left;
+	margin-right: 20px;
+}
+
+p{
+	background-color: blue;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+
+}
+
+form{
+	text-align: center;
+	background-color: lightblue;
+}
+
+label{
+	font-weight: bold;
+	margin: 100px;
+	background-color: red;
+}
+
+li{
+	list-style-position: inside;
+	background-color: green;
+}
+
+.menu{
+	text-align: center;
+	background-color: yellow;
+	font-size: 200%;
+}
+
+.andre{
+	background-color: brown;
+	font-size: 120%;
+	font-weight: bold;
+}
+
