@@ -1,0 +1,42 @@
+<h1>Ler dois números e apresentar a soma</h1>
+<form id="formulario">
+	<label>n1</label><input type="text" id="n1"><br>
+	<label>n2</label><input type="text" id="n2"><br>
+	<input type="submit">
+</form>
+<hr>
+<h2 id="som"></h2>
+<h2 id="sub"></h2>
+<h2 id="div"></h2>
+<h2 id="mul"></h2>
+
+<script type="text/javascript">
+	var form = document.getElementById('formulario');
+	var n1 = document.getElementById('n1');
+	var n2 = document.getElementById('n2');
+	var soma = document.getElementById('som');
+	var subtracao = document.getElementById('sub');
+	var multiplicacao = document.getElementById('mul');
+	var divisao = document.getElementById('div');
+
+	form.addEventListener('submit',function(e){
+		soma.innerText=parseInt(n1.value)+parseInt(n2.value);
+		subtracao.innerText=parseInt(n1.value)-parseInt(n2.value);
+		multiplicacao.innerText=parseInt(n1.value)*parseInt(n2.value);
+		divisao.innerText=parseInt(n1.value)/parseInt(n2.value);
+
+		e.preventDefault();
+	});
+
+
+
+
+</script>
+
+	n1=1*prompt();
+	n2=1*prompt();
+	
+	alert(n1+n2);
+	alert(n1*n2);
+	alert(n1/n2);
+	alert(n1-n2);

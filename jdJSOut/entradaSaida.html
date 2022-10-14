@@ -1,0 +1,29 @@
+<h1>Meu primeiro arquivo JS</h1>
+
+nome=prompt("informe o nome");
+
+alert("olá, boa noite "+nome);
+
+<hr>
+<form id="formulario">
+	<input type="text" id="wendel">
+	<input type="submit">
+</form>
+
+<h2 id="resultado"></h2>
+
+<script type="text/javascript">
+	var form = document.getElementById('formulario');
+	var nome = document.getElementById('wendel');
+	var resu = document.getElementById('resultado');
+
+	form.addEventListener('submit',function(e){
+		resu.innerText=nome.value;
+
+		e.preventDefault();
+	});
+
+
+
+
+</script>
