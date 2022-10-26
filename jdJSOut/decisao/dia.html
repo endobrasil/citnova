@@ -1,0 +1,48 @@
+<h1>
+5) Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+</h1>
+<br>
+
+<hr>
+<form id="formulario">
+	<input type="text" id="wendel">
+	<input type="submit">
+</form>
+
+<h2 id="resultado"></h2>
+
+<script type="text/javascript">
+	var form = document.getElementById('formulario');
+	var nome = document.getElementById('wendel');
+	var resu = document.getElementById('resultado');
+
+	form.addEventListener('submit',function(e){
+
+		if(nome.value==1){
+			resu.innerText="segunda";
+		}else if (nome.value==2){
+			resu.innerText="terça";
+
+		}else if (nome.value==3){
+			resu.innerText="quarta";
+
+		}else if (nome.value==4){
+			resu.innerText="quinta";
+
+		}else if (nome.value==5){
+			resu.innerText="sexta";
+
+		}else if (nome.value==6){
+			resu.innerText="sábado";
+
+		}else if (nome.value==7){
+			resu.innerText="domingo";
+
+		}else{
+			resu.innerText="valor inválido";
+		}
+		
+
+		e.preventDefault();
+	});
+</script>
